@@ -9,3 +9,4 @@ alter table Bookorders add(Order_date date);
 insert into Bookorders(UserClass_id,book_id,quantity)values(12,1,3); 
 insert into Bookorders(UserClass_id,book_id,quantity)values(13,2,2);
 select * from Bookorders;
+update Bookorders set quantity=6 where book_id=1;

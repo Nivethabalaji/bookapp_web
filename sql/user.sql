@@ -7,3 +7,4 @@ password varchar(10)not null);
 insert into UserClass values(12,'nivi','nivi05','12345');
 insert into UserClass values('manisha','manish05','1452');
 select * from UserClass;
+delete from UserClass where name='nivi';
